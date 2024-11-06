@@ -386,6 +386,18 @@ body.opened .kura_tm_topbar {
 	max-height: 70px;
 }
 
+.kura_tm_topbar .logo a {
+	font-style: normal;
+	text-decoration: none;
+}
+
+.kura_tm_topbar .logo a h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: "Poppins";
+}
+
 .kura_tm_topbar .menu {
 	display: flex;
 	align-items: center;
@@ -1321,9 +1333,27 @@ body.opened .kura_tm_hero .down {
 	padding-right: 40px;
 }
 
+.kura_tm_modalbox .main_details .first {
+	font-weight: 700;
+	display: block;
+	color: #000;
+	margin-bottom: 3px;
+}
+
 .kura_tm_modalbox .main_details .textbox p {
 	margin-bottom: 15px;
 }
+
+.kura_tm_modalbox .main_details .textbox ul li {
+	margin-left: 48px;
+	margin-bottom: 5px;
+}
+
+.kura_tm_modalbox .main_details .textbox ul li strong {
+	font-weight: 600;
+	color: #444;
+}
+
 
 .kura_tm_modalbox .main_details .textbox p:last-child {
 	margin-bottom: 0px;
